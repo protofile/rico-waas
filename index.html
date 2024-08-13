@@ -47,48 +47,39 @@
               <div class="article-list">
                 <div class="article-card">
                   <div class="pic">
-                    <a href="article-1.html" class="article-link">
-                      <img src="asset/images/bank/pic1.jpeg" alt="" />
-                    </a>
+                    <img src="asset/images/bank/pic1.jpeg" alt="" />
                   </div>
                   <div class="text">
                     <h3>
-                      <a href="article-1.html" class="article-link">
-                        <span>Rico Waas:</span>Awalnya Tercebur ke Dunia
-                        Politik, Kini Jadi Passion
-                      </a>
+                      <span>Rico Waas:</span>Awalnya Tercebur ke Dunia Politik,
+                      Kini Jadi Passion
                     </h3>
                   </div>
+                  <a href="article-1.html" class="article-link"> &nbsp; </a>
                 </div>
                 <div class="article-card">
                   <div class="pic">
-                    <a href="article-2.html" class="article-link">
-                      <img src="asset/images/bank/pic1.jpeg" alt="" />
-                    </a>
+                    <img src="asset/images/bank/pic1.jpeg" alt="" />
                   </div>
                   <div class="text">
                     <h3>
-                      <a href="article-2.html" class="article-link">
-                        <span>Rico-Zaki Maju Bursa Pilkada 2024,</span>Ini
-                        Harapan Surya Paloh buat Kota Medan
-                      </a>
+                      <span>Rico-Zaki Maju Bursa Pilkada 2024,</span>Ini Harapan
+                      Surya Paloh buat Kota Medan
                     </h3>
                   </div>
+                  <a href="article-2.html" class="article-link"> &nbsp; </a>
                 </div>
                 <div class="article-card">
                   <div class="pic">
-                    <a href="article-3.html" class="article-link">
-                      <img src="asset/images/bank/pic1.jpeg" alt="" />
-                    </a>
+                    <img src="asset/images/bank/pic1.jpeg" alt="" />
                   </div>
                   <div class="text">
                     <h3>
-                      <a href="article-3.html" class="article-link">
-                        <span>Pilwalkot Medan 2024,</span>Rico Waas akan Fokus
-                        Benahi Hal Ini
-                      </a>
+                      <span>Pilwalkot Medan 2024,</span>Rico Waas akan Fokus
+                      Benahi Hal Ini
                     </h3>
                   </div>
+                  <a href="article-3.html" class="article-link"> &nbsp; </a>
                 </div>
               </div>
             </div>
@@ -127,14 +118,18 @@
                     <img src="asset/images/icon-hospital.png" alt="" />
                   </div>
                   <h4>Kesehatan</h4>
-                  <a href="#" class="infografis-link">&nbsp;</a>
+                  <a href="infografis-kesehatan.html" class="infografis-link">
+                    &nbsp;
+                  </a>
                 </div>
                 <div class="grid-item">
                   <div class="ico">
                     <img src="asset/images/icon-location.png" alt="" />
                   </div>
                   <h4>Pariwisata</h4>
-                  <a href="#" class="infografis-link">&nbsp;</a>
+                  <a href="infografis-pariwisata.html" class="infografis-link"
+                    >&nbsp;</a
+                  >
                 </div>
               </div>
             </div>
@@ -187,10 +182,12 @@
         $(".make-rico-0").click(function () {
           $(".foto-rico").removeClass("right-15");
           $(".foto-rico").addClass("right-0");
+          $(".back-bt").addClass("show");
         });
         $(".make-rico-15").click(function () {
           $(".foto-rico").removeClass("right-0");
           $(".foto-rico").addClass("right-15");
+          $(".back-bt").removeClass("show");
         });
 
         $(".article-slider").owlCarousel({
