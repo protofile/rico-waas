@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="asset/css/normalize.css" />
+    <link rel="stylesheet" href="asset/css/bootstrap.css" />
+    <link rel="stylesheet" href="asset/css/fontawesome-all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="asset/css/owl.carousel.css" />
+    <link rel="stylesheet" href="asset/css/main.css" />
+  </head>
+  <body>
+    <div class="master">
+      <div class="header">
+        <a href="#" class="logo-mi">
+          <img src="asset/images/logo-mi.png" alt="" />
+        </a>
+        <div class="btn-group">
+          <a href="infografis-sumut.html" class="pop-link">
+            INFOGRAFIS SUMUT
+          </a>
+          <a href="#">
+            <i class="fa fa-share"></i>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <div id="infografis-tab" class="content-tab-item">
+          <div class="infografis-menu content-padding">
+            <h2>Statistik <span>Sumatera Utara</span></h2>
+            <div class="grid">
+              <div class="grid-item">
+                <div class="ico">
+                  <img src="asset/images/icon-education.png" alt="" />
+                </div>
+                <h4>Pendidikan</h4>
+                <a href="#">&nbsp;</a>
+              </div>
+              <div class="grid-item">
+                <div class="ico">
+                  <img src="asset/images/icon-education.png" alt="" />
+                </div>
+                <h4>Lapangan Pekerjaan</h4>
+                <a href="#">&nbsp;</a>
+              </div>
+              <div class="grid-item">
+                <div class="ico">
+                  <img src="asset/images/icon-education.png" alt="" />
+                </div>
+                <h4>Kesehatan</h4>
+                <a href="#">&nbsp;</a>
+              </div>
+              <div class="grid-item">
+                <div class="ico">
+                  <img src="asset/images/icon-education.png" alt="" />
+                </div>
+                <h4>Pariwisata</h4>
+                <a href="#">&nbsp;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="asset/js/jquery-1.11.0.min.js"></script>
+    <script src="asset/js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // $(".pop-link").click(function (pl) {
+        //   pl.preventDefault();
+        //   $(".content-tab-item").removeClass("show");
+        //   $($(this).attr("href")).addClass("show");
+        // });
+
+        $(".article-slider").owlCarousel({
+          singleItem: true,
+          navigation: true,
+          pagination: true,
+          autoPlay: false,
+        });
+      });
+    </script>
+  </body>
+</html>

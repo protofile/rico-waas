@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="asset/css/normalize.css" />
+    <link rel="stylesheet" href="asset/css/bootstrap.css" />
+    <link rel="stylesheet" href="asset/css/fontawesome-all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="asset/css/owl.carousel.css" />
+    <link rel="stylesheet" href="asset/css/main.css" />
+  </head>
+  <body>
+    <div class="master">
+      <div class="header">
+        <a href="#" class="logo-mi">
+          <img src="asset/images/logo-mi.png" alt="" />
+        </a>
+        <a href="#front-page-tab" class="back-bt tab-link make-rico-15">
+          Kembali
+        </a>
+        <div class="btn-group">
+          <a href="#infografis-sumut" class="tab-link make-rico-0">
+            INFOGRAFIS SUMUT
+          </a>
+          <a href="#">
+            <i class="fa fa-share"></i>
+          </a>
+        </div>
+      </div>
+      <div class="content">
+        <div id="front-page-tab" class="content-tab-item show">
+          <div class="front-page content-padding">
+            <div class="left-col">
+              <div class="front-title">
+                <h1>RICO <span>WAAS</span></h1>
+                <h3>Bersama Dalam Harmoni</h3>
+              </div>
+              <div class="article-list">
+                <div class="article-card">
+                  <div class="pic">
+                    <a href="article-1.html" class="article-link">
+                      <img src="asset/images/bank/pic1.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <div class="text">
+                    <h3>
+                      <a href="article-1.html" class="article-link">
+                        <span>Rico Waas:</span>Awalnya Tercebur ke Dunia
+                        Politik, Kini Jadi Passion
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="article-card">
+                  <div class="pic">
+                    <a href="article-2.html" class="article-link">
+                      <img src="asset/images/bank/pic1.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <div class="text">
+                    <h3>
+                      <a href="article-2.html" class="article-link">
+                        <span>Rico-Zaki Maju Bursa Pilkada 2024,</span>Ini
+                        Harapan Surya Paloh buat Kota Medan
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+                <div class="article-card">
+                  <div class="pic">
+                    <a href="article-3.html" class="article-link">
+                      <img src="asset/images/bank/pic1.jpeg" alt="" />
+                    </a>
+                  </div>
+                  <div class="text">
+                    <h3>
+                      <a href="article-3.html" class="article-link">
+                        <span>Pilwalkot Medan 2024,</span>Rico Waas akan Fokus
+                        Benahi Hal Ini
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--div class="right-col">
+              <figure>
+                <img src="asset/images/rico-1.png" alt="" />
+              </figure>
+            <div-->
+          </div>
+        </div>
+
+        <!--INFOGRAFIS MENU-->
+        <div id="infografis-sumut" class="content-tab-item">
+          <div class="infografis-menu content-padding">
+            <div>
+              <h2>Statistik <span>Sumatera Utara</span></h2>
+              <div class="grid">
+                <div class="grid-item">
+                  <div class="ico">
+                    <img src="asset/images/icon-education.png" alt="" />
+                  </div>
+                  <h4>Pendidikan</h4>
+                  <a href="infografis-pendidikan.html" class="infografis-link">
+                    &nbsp;
+                  </a>
+                </div>
+                <div class="grid-item">
+                  <div class="ico">
+                    <img src="asset/images/icon-worker.png" alt="" />
+                  </div>
+                  <h4>Lapangan Pekerjaan</h4>
+                  <a href="#" class="infografis-link">&nbsp;</a>
+                </div>
+                <div class="grid-item">
+                  <div class="ico">
+                    <img src="asset/images/icon-hospital.png" alt="" />
+                  </div>
+                  <h4>Kesehatan</h4>
+                  <a href="#" class="infografis-link">&nbsp;</a>
+                </div>
+                <div class="grid-item">
+                  <div class="ico">
+                    <img src="asset/images/icon-location.png" alt="" />
+                  </div>
+                  <h4>Pariwisata</h4>
+                  <a href="#" class="infografis-link">&nbsp;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--INFOGRAFIS MENU END-->
+      </div>
+      <img src="asset/images/rico-1.png" alt="" class="foto-rico right-15" />
+
+      <div class="article-popup">
+        <div class="popup-ct"></div>
+        <div class="popup-close-bt">Tutup</div>
+      </div>
+      <div class="infografis-popup">
+        <div class="popup-ct"></div>
+        <div class="popup-close-bt">Tutup</div>
+      </div>
+    </div>
+
+    <script src="asset/js/jquery-1.11.0.min.js"></script>
+    <script src="asset/js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".tab-link").click(function (pl) {
+          pl.preventDefault();
+          $(".content-tab-item").removeClass("show");
+          $($(this).attr("href")).addClass("show");
+        });
+
+        $(".article-link").click(function (pl) {
+          pl.preventDefault();
+          $(".article-popup").addClass("show");
+          $(".article-popup .popup-ct").html(
+            "<iframe src=" + $(this).attr("href") + "/>"
+          );
+        });
+        $(".popup-close-bt").click(function () {
+          $(".article-popup").removeClass("show");
+          $(".infografis-popup").removeClass("show");
+        });
+
+        $(".infografis-link").click(function (il) {
+          il.preventDefault();
+          $(".infografis-popup").addClass("show");
+          $(".infografis-popup .popup-ct").html(
+            "<iframe src=" + $(this).attr("href") + "/>"
+          );
+        });
+
+        $(".make-rico-0").click(function () {
+          $(".foto-rico").removeClass("right-15");
+          $(".foto-rico").addClass("right-0");
+        });
+        $(".make-rico-15").click(function () {
+          $(".foto-rico").removeClass("right-0");
+          $(".foto-rico").addClass("right-15");
+        });
+
+        $(".article-slider").owlCarousel({
+          singleItem: true,
+          navigation: true,
+          pagination: true,
+          autoPlay: false,
+        });
+      });
+    </script>
+  </body>
+</html>
