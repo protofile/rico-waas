@@ -780,10 +780,11 @@ img.foto-rico.right-15 {
     padding: 60px 20px;
   }
   .infografis-title {
-    margin-bottom: 0;
+    margin-bottom: 20px;
   }
   .infografis-title .icon {
     width: 60px;
+    height: 60px;
   }
   .infografis-title h2 {
     font-size: 20px;
