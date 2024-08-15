@@ -87,7 +87,7 @@ figure img {
 }
 
 .master {
-  background: url(../images/main-bg.jpg) no-repeat center;
+  background: url(../images/main-bg.jpg) no-repeat center fixed;
   background-size: cover;
   position: relative;
   height: 100vh;
@@ -653,4 +653,188 @@ img.foto-rico.right-15 {
 }
 .back-bt:hover {
   color: #fff;
+}
+
+.for-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .for-desktop {
+    display: none;
+  }
+  .for-mobile {
+    display: block;
+  }
+  .header {
+    padding: 10px 20px;
+  }
+  .logo-mi {
+    width: 120px;
+    float: left;
+    text-align: center;
+  }
+  .logo-mi img {
+    height: 40px;
+  }
+  .btn-group {
+    width: calc(100% - 120px);
+    justify-content: end;
+  }
+  .btn-group a {
+    padding: 10px 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 120%;
+    font-weight: 700;
+    width: 100px;
+    text-align: right;
+  }
+  .btn-group a:first-child {
+    padding: 5px 10px;
+  }
+  .btn-group a:last-child {
+    width: 40px;
+    padding-top: 12px;
+  }
+  .back-bt {
+    position: absolute;
+  }
+  .content {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .content-padding {
+    padding: 50vh 20px 20px;
+  }
+  .front-title {
+    margin-bottom: 20px;
+  }
+  .front-title h1 {
+    font-size: 48px;
+  }
+  .front-title h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .front-page .left-col {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    padding-bottom: 20px;
+  }
+  .article-card {
+    padding: 5px;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  .article-card .pic {
+    width: 60px;
+    height: 60px;
+  }
+  .article-card .text {
+    width: calc(100% - 60px);
+    padding: 0 0 0 10px;
+  }
+  .article-card .text h3 {
+    font-size: 12px;
+  }
+  .article-card .text h3 span {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  img.foto-rico {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    bottom: auto;
+    top: 80px;
+    z-index: 0;
+  }
+  img.foto-rico.right-15,
+  img.foto-rico.right-0 {
+    right: 0;
+  }
+  .grid-item {
+    width: calc((100% - 10px) / 2);
+    margin-right: 10px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+  .grid-item:nth-child(even) {
+    margin-right: 0;
+  }
+  .grid-item .ico {
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+  }
+  .grid-item h4 {
+    font-size: 14px;
+  }
+  .infografis-menu h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .infografis-content-desktop {
+    padding: 60px 20px;
+  }
+  .infografis-title .icon {
+    width: 60px;
+  }
+  .infografis-title h2 {
+    font-size: 20px;
+  }
+  .infografis-content h3 {
+    font-size: 18px;
+    top: 20px;
+  }
+  .article-popup {
+    width: 100vw;
+    height: 100vh;
+  }
+  .article {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+    overflow-x: hidden;
+  }
+  .article h1 {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .article .text {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+    margin-bottom: 90px;
+  }
+  .article .text p {
+    font-size: 14px;
+  }
+  .article .quotes {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  .article .quotes blockquote {
+    width: 100%;
+    font-size: 14px;
+  }
+  .master {
+    height: auto;
+  }
+  .article .quotes figure {
+    height: 200px;
+    width: 100%;
+  }
+  a.back-bt {
+    top: 60px;
+    left: 0;
+    margin-left: 0;
+    border-left: none;
+    font-size: 14px;
+    color: #fff;
+  }
 }
