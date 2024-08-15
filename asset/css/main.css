@@ -779,6 +779,9 @@ img.foto-rico.right-15 {
   .infografis-content-desktop {
     padding: 60px 20px;
   }
+  .infografis-title {
+    margin-bottom: 0;
+  }
   .infografis-title .icon {
     width: 60px;
   }
