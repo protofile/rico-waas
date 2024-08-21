@@ -842,4 +842,7 @@ img.foto-rico.right-15 {
     font-size: 14px;
     color: #fff;
   }
+  .popup-close-bt {
+    position: fixed;
+  }
 }
