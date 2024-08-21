@@ -796,7 +796,7 @@ img.foto-rico.right-15 {
   }
   .article-popup {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
   }
   .article {
     padding-left: 20px;
